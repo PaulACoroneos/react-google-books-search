@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Navbar from './components/Navbar/'
+import Jumbotron from './components/Jumbotron'
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <Jumbotron />
       </div>
     );
   }

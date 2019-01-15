@@ -6,14 +6,17 @@ class Navbar extends React.Component {
   render() {
     return (
       <div class="ui menu">
-        <div class="header item">
+        <div
+          class="header item"
+          style={{color:'#4285F4'}}
+        >
           <FontAwesomeIcon
             icon={faGoogle}
-            style={{marginRight:'5px'}}
+            style={{marginRight:'5px',color:'#dd4b39'}}
           />Google Books
         </div>
-        <a class="item">Searched</a>
-        <a class="item">Saved</a>
+        <a class="item" href='/Search'>Search</a>
+        <a class="item" href='/Saved'>Saved</a>
       </div>
     )
   }
